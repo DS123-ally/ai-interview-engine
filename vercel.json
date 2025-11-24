@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "index.py": {
+      "runtime": "python3.9"
+    }
+  },
+  "routes": [
+    { "src": "/(.*)", "dest": "/index.py" }
+  ]
+}
